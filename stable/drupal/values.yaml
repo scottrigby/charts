@@ -148,3 +148,11 @@ readinessProbe:
     path: /user/login
     port: http
   initialDelaySeconds: 30
+
+## Pass extra environment variables to the Drupal container.
+##
+# extraVars:
+# - name: EXTRA_VAR_1
+#   value: extra-var-value-1
+# - name: EXTRA_VAR_2
+#   value: extra-var-value-2
