@@ -138,11 +138,20 @@ volumeMounts:
 ## module that alters that route, or an image that does not auto-install Drupal.
 ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/
 #
-livenessProbe:
-  httpGet:
-    path: /user/login
-    port: http
-  initialDelaySeconds: 120
+## Temporarily comment out livenessProbe, because we want to change the handler
+## to match our image (exec instead of httpGet). However the k8s livenessProbe
+## is not allowed to contain two different handler keys, even if one has an
+## empty value. And Helm does not currently allow deletion of any chart value
+## keys. However, I just made a PR that was merged into kubernets/helm master,
+## and will be part of the next Helm release 2.6.0, schedule for July 31, 2017!
+## ref: https://github.com/kubernetes/helm/pull/2648
+## ref: https://github.com/kubernetes/helm/milestone/42?closed=1
+#
+#livenessProbe:
+#  httpGet:
+#    path: /user/login
+#    port: http
+#  initialDelaySeconds: 120
 readinessProbe:
   httpGet:
     path: /user/login
