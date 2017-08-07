@@ -14,6 +14,12 @@ spec:
       labels:
         app: {{ template "fullname" . }}
     spec:
+      {{ if .Values.nodeSelector }}
+      nodeSelector:
+        {{ range $key, $value := .Values.nodeSelector }}
+          {{ $key }}: {{ $value | quote }}
+        {{ end }}
+      {{ end }}
       containers:
       - name: {{ template "fullname" . }}
         image: "{{ .Values.image }}"
@@ -74,7 +80,7 @@ spec:
       - name: apache-data
       {{- if .Values.persistence.enabled }}
         persistentVolumeClaim:
-          claimName: {{ template "fullname" . }}-apache
+          claimName: {{ .Values.persistence.drupal.apache.existingClaim | default (printf "%s-apache" (include "fullname" .)) }}
       {{- else }}
         emptyDir: {}
       {{- end }}

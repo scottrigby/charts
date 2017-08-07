@@ -45,33 +45,34 @@ The command removes all the Kubernetes components associated with the chart and 
 
 The following tables lists the configurable parameters of the Drupal chart and their default values.
 
-| Parameter                         | Description                           | Default                                                   |
-| --------------------------------- | ------------------------------------- | --------------------------------------------------------- |
-| `image`                           | Drupal image                          | `bitnami/drupal:{VERSION}`                                |
-| `imagePullSecrets`                | Specify image pull secrets            | `nil` (does not add image pull secrets to deployed pods)  |
-| `imagePullPolicy`                 | Image pull policy                     | `IfNotPresent`                                            |
-| `drupalUsername`                  | User of the application               | `user`                                                    |
-| `drupalPassword`                  | Application password                  | _random 10 character long alphanumeric string_            |
-| `drupalEmail`                     | Admin email                           | `user@example.com`                                        |
-| `extraVars`                       | Extra environment variables           | `nil`                                                     |
-| `ingress.annotations`             | Specify ingress class                 | `kubernetes.io/ingress.class: nginx`                      |
-| `ingress.enabled`                 | Enable ingress controller resource    | `false`                                                   |
-| `ingress.hostname`                | URL for your Drupal installation      | `drupal.local`                                            |
-| `ingress.tls`                     | Ingress TLS configuration             | `[]`                                                      |
-| `mariadb.mariadbRootPassword`     | MariaDB admin password                | `nil`                                                     |
-| `serviceType`                     | Kubernetes Service type               | `LoadBalancer`                                            |
-| `persistence.enabled`             | Enable persistence using PVC          | `true`                                                    |
-| `persistence.apache.storageClass` | PVC Storage Class for Apache volume   | `nil` (uses alpha storage class annotation)               |
-| `persistence.apache.accessMode`   | PVC Access Mode for Apache volume     | `ReadWriteOnce`                                           |
-| `persistence.apache.size`         | PVC Storage Request for Apache volume | `1Gi`                                                     |
-| `persistence.drupal.storageClass` | PVC Storage Class for Drupal volume   | `nil` (uses alpha storage class annotation)               |
-| `persistence.drupal.accessMode`   | PVC Access Mode for Drupal volume     | `ReadWriteOnce`                                           |
-| `persistence.drupal.existingClaim`| An Existing PVC name                  | `nil`                                                     |
-| `persistence.drupal.hostPath`     | Host mount path for Drupal volume     | `nil` (will not mount to a host path)                     |
-| `persistence.drupal.size`         | PVC Storage Request for Drupal volume | `8Gi`                                                     |
-| `resources`                       | CPU/Memory resource requests/limits   | Memory: `512Mi`, CPU: `300m`                              |
-| `volumeMounts.drupal.mountPath`   | Drupal data volume mount path         | `/bitnami/drupal`                                         |
-| `volumeMounts.apache.mountPath`   | Apache data volume mount path         | `/bitnami/apache`                                         |
+| Parameter                                 | Description                           | Default                                                   |
+| ----------------------------------------- | ------------------------------------- | --------------------------------------------------------- |
+| `image`                                   | Drupal image                          | `bitnami/drupal:{VERSION}`                                |
+| `imagePullSecrets`                        | Specify image pull secrets            | `nil` (does not add image pull secrets to deployed pods)  |
+| `imagePullPolicy`                         | Image pull policy                     | `IfNotPresent`                                            |
+| `drupalUsername`                          | User of the application               | `user`                                                    |
+| `drupalPassword`                          | Application password                  | _random 10 character long alphanumeric string_            |
+| `drupalEmail`                             | Admin email                           | `user@example.com`                                        |
+| `extraVars`                               | Extra environment variables           | `nil`                                                     |
+| `ingress.annotations`                     | Specify ingress class                 | `kubernetes.io/ingress.class: nginx`                      |
+| `ingress.enabled`                         | Enable ingress controller resource    | `false`                                                   |
+| `ingress.hostname`                        | URL for your Drupal installation      | `drupal.local`                                            |
+| `ingress.tls`                             | Ingress TLS configuration             | `[]`                                                      |
+| `mariadb.mariadbRootPassword`             | MariaDB admin password                | `nil`                                                     |
+| `serviceType`                             | Kubernetes Service type               | `LoadBalancer`                                            |
+| `persistence.enabled`                     | Enable persistence using PVC          | `true`                                                    |
+| `persistence.apache.storageClass`         | PVC Storage Class for Apache volume   | `nil` (uses alpha storage class annotation)               |
+| `persistence.apache.accessMode`           | PVC Access Mode for Apache volume     | `ReadWriteOnce`                                           |
+| `persistence.apache.size`                 | PVC Storage Request for Apache volume | `1Gi`                                                     |
+| `persistence.drupal.storageClass`         | PVC Storage Class for Drupal volume   | `nil` (uses alpha storage class annotation)               |
+| `persistence.drupal.accessMode`           | PVC Access Mode for Drupal volume     | `ReadWriteOnce`                                           |
+| `persistence.drupal.existingClaim`        | An Existing PVC name                  | `nil`                                                     |
+| `persistence.drupal.apache.existingClaim` | An Existing PVC name for Apache       | `nil`                                                     |
+| `persistence.drupal.hostPath`             | Host mount path for Drupal volume     | `nil` (will not mount to a host path)                     |
+| `persistence.drupal.size`                 | PVC Storage Request for Drupal volume | `8Gi`                                                     |
+| `resources`                               | CPU/Memory resource requests/limits   | Memory: `512Mi`, CPU: `300m`                              |
+| `volumeMounts.drupal.mountPath`           | Drupal data volume mount path         | `/bitnami/drupal`                                         |
+| `volumeMounts.apache.mountPath`           | Apache data volume mount path         | `/bitnami/apache`                                         |
 
 The above parameters map to the env variables defined in [bitnami/drupal](http://github.com/bitnami/bitnami-docker-drupal). For more information please refer to the [bitnami/drupal](http://github.com/bitnami/bitnami-docker-drupal) image documentation.
 
