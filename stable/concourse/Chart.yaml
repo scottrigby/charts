@@ -10,7 +10,7 @@ keywords:
 home: https://concourse-ci.org/
 sources:
 - https://github.com/concourse/bin
-- https://github.com/kubernetes/charts
+- https://github.com/helm/charts
 maintainers:
 - name: frodenas
   email: frodenas@gmail.com

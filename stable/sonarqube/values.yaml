@@ -104,7 +104,7 @@ database:
   type: "postgresql"
 
 ## Configuration values for postgresql dependency
-## ref: https://github.com/kubernetes/charts/blob/master/stable/postgresql/README.md
+## ref: https://github.com/helm/charts/blob/master/stable/postgresql/README.md
 postgresql:
   # Enable to deploy the PostgreSQL chart
   enabled: true
@@ -119,7 +119,7 @@ postgresql:
     port: 5432
 
 ## Configuration values for the mysql dependency
-## ref: https://github.com/kubernetes/charts/blob/master/stable/mysql/README.md
+## ref: https://github.com/helm/charts/blob/master/stable/mysql/README.md
 ##
 mysql:
   # Enable to deploy the mySQL chart

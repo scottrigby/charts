@@ -66,6 +66,6 @@ auth: false
 
 ## Redis password
 ## Defaults to a random 10-character alphanumeric string if not set and auth is true
-## ref: https://github.com/kubernetes/charts/blob/master/stable/redis-ha/templates/redis-auth-secret.yaml
+## ref: https://github.com/helm/charts/blob/master/stable/redis-ha/templates/redis-auth-secret.yaml
 ##
 ## redisPassword:

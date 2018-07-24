@@ -164,7 +164,7 @@ Where `my-release` is the name of your helm release.
 
 Kafka has a rich ecosystem, with lots of tools. This sections is intended to compile all of those tools for which a corresponding Helm chart has already been created.
 
-- [Schema-registry](https://github.com/kubernetes/charts/tree/master/incubator/schema-registry) -  A confluent project that provides a serving layer for your metadata. It provides a RESTful interface for storing and retrieving Avro schemas.
+- [Schema-registry](https://github.com/helm/charts/tree/master/incubator/schema-registry) -  A confluent project that provides a serving layer for your metadata. It provides a RESTful interface for storing and retrieving Avro schemas.
 
 ### Connecting to Kafka from outside Kubernetes
 
@@ -228,7 +228,7 @@ may not be of interest. To help in reducing these statistics to their relevant c
 This whitelist may be modified or removed via the values configuration.
 
 To accommodate compatibility with the Prometheus metrics, this chart performs transformations of raw JMX metrics. For example, broker names and topics names are incorporated
-into the metric name instead of becoming a label. If you are curious to learn more about any default transformations to the chart metrics, please have reference the [configmap template](https://github.com/kubernetes/charts/blob/master/incubator/kafka/templates/jmx-configmap.yaml).
+into the metric name instead of becoming a label. If you are curious to learn more about any default transformations to the chart metrics, please have reference the [configmap template](https://github.com/helm/charts/blob/master/incubator/kafka/templates/jmx-configmap.yaml).
 
 ### Kafka Exporter
 

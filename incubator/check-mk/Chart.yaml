@@ -12,7 +12,7 @@ maintainers:
   name: junaid18183
 name: check-mk
 sources:
-- https://github.com/kubernetes/charts
+- https://github.com/helm/charts
 - http://git.mathias-kettner.de/git/
 version: 0.2.1
 appVersion: 1.4.0p26

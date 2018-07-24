@@ -4,7 +4,7 @@ This chart installs the [k8s-spot-rescheduler](https://github.com/pusher/k8s-spo
 
 ## Purpose
 
-Spot rescheduler will reschedule pods that are already running on on-demand instances. Based on worker labels it will move pods to spot instances. It can work together with [Cluster Autoscaler](https://github.com/kubernetes/charts/tree/master/stable/cluster-autoscaler) if you want to scale on-demand instances back to zero.
+Spot rescheduler will reschedule pods that are already running on on-demand instances. Based on worker labels it will move pods to spot instances. It can work together with [Cluster Autoscaler](https://github.com/helm/charts/tree/master/stable/cluster-autoscaler) if you want to scale on-demand instances back to zero.
 
 ## Installation
 

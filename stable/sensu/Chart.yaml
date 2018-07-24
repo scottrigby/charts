@@ -8,7 +8,7 @@ keywords:
 - monitoring
 home: https://sensuapp.org/
 sources:
-- https://github.com/kubernetes/charts
+- https://github.com/helm/charts
 - https://github.com/sstarcher/docker-sensu
 - https://github.com/sensu/sensu
 maintainers:

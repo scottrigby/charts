@@ -15,7 +15,7 @@ For more information on Keycloak and its capabilities, see its [documentation](h
 
 ## Prerequisites Details
 
-The chart has an optional dependency on the [PostgreSQL](https://github.com/kubernetes/charts/tree/master/stable/postgresql) chart.
+The chart has an optional dependency on the [PostgreSQL](https://github.com/helm/charts/tree/master/stable/postgresql) chart.
 By default, the PostgreSQL chart requires PV support on underlying infrastructure (may be disabled).
 
 ## Installing the Chart
@@ -124,7 +124,7 @@ It is important that these values be configured as strings. Otherwise, installat
 By default, Keycloak uses an embedded H2 database.
 This is only suitable for testing purposes.
 All data is lost when Keycloak is shut down.
-Optionally, the [PostgreSQL](https://github.com/kubernetes/charts/tree/master/stable/postgresql) chart is deployed and used as database.
+Optionally, the [PostgreSQL](https://github.com/helm/charts/tree/master/stable/postgresql) chart is deployed and used as database.
 Please refer to this chart for additional PostgreSQL configuration options.
 
 #### Using an External Database

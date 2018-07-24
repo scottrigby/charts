@@ -31,7 +31,7 @@ mkdir /serving
 mount -t nfs -o vers=4.0 10.244.1.4:/serving /serving
 mkdir -p /serving/model
 cd /serving/model
-curl -O https://raw.githubusercontent.com/kubernetes/charts/master/stable/tensorflow-serving/models/mnist-export.tar.gz
+curl -O https://raw.githubusercontent.com/helm/charts/master/stable/tensorflow-serving/models/mnist-export.tar.gz
 tar -xzvf mnist-export.tar.gz
 rm -rf mnist-export.tar.gz
 cd /

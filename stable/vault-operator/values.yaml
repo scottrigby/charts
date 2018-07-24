@@ -53,7 +53,7 @@ affinity: {}
 # All of the config variables related to setting up the etcd-operator
 # Disabled by default
 # If you want more information about the variables exposed, please visit:
-#   https://github.com/kubernetes/charts/tree/master/stable/etcd-operator#configuration
+#   https://github.com/helm/charts/tree/master/stable/etcd-operator#configuration
 ###
 etcd-operator:
   enabled: false

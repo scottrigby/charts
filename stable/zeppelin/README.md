@@ -29,7 +29,7 @@ The following table lists the configurable parameters of the Zeppelin chart and 
 
 ## Related charts
 
-The [Hadoop](https://github.com/kubernetes/charts/tree/master/stable/hadoop) chart can be used to create a YARN cluster where Spark jobs are executed:
+The [Hadoop](https://github.com/helm/charts/tree/master/stable/hadoop) chart can be used to create a YARN cluster where Spark jobs are executed:
 
 ```
 helm install -n hadoop stable/hadoop

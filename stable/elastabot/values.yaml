@@ -19,7 +19,7 @@ elasticsearch:
   sslStrictEnabled: False
 
 # Elastalert settings. Elastalert chart information is available here:
-# https://github.com/kubernetes/charts/tree/master/stable/elastalert
+# https://github.com/helm/charts/tree/master/stable/elastalert
 elastalert:
   # How far back in time to search for recently-fired alerts, in Elasticsearch
   recentAlertMinutes: 4320

@@ -10,7 +10,7 @@ keywords:
 - kafka statefulset
 home: https://kafka.apache.org/
 sources:
-- https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+- https://github.com/helm/charts/tree/master/incubator/zookeeper
 - https://github.com/Yolean/kubernetes-kafka
 - https://github.com/confluentinc/cp-docker-images
 - https://github.com/apache/kafka

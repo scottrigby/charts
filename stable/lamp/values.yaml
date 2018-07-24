@@ -58,7 +58,7 @@ php:
 
   ## php.persistentSubpaths instead of enabling persistence for the whole webroot,
   ## only subpaths of webroot can be enabled for persistence. Have a look at the
-  ## github.com/kubernetes/charts/stable/lamp/examples/nextcloud.yaml to see how it works
+  ## github.com/helm/charts/stable/lamp/examples/nextcloud.yaml to see how it works
   persistentSubpaths: false
 
   # persistentSubpaths:

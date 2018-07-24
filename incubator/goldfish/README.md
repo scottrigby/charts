@@ -8,8 +8,8 @@ This Helm chart simplifies the deployment of [goldfish](https://github.com/Caiye
 
 ### Vault
 
-* Use the [vault](https://github.com/kubernetes/charts/tree/master/incubator/vault) helm chart (still incubating)
-* Use the [vault-operator](https://github.com/kubernetes/charts/tree/master/incubator/vault-operator) helm chart (pending PR)
+* Use the [vault](https://github.com/helm/charts/tree/master/incubator/vault) helm chart (still incubating)
+* Use the [vault-operator](https://github.com/helm/charts/tree/master/incubator/vault-operator) helm chart (pending PR)
 
 Alternately, use an existing Vault and provide an endpoint. For more information on how to install Vault, check [here](https://www.vaultproject.io/docs/install/index.html).
 

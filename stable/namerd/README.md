@@ -1,6 +1,6 @@
 # namerd Chart
 
-[namerd](https://linkerd.io/in-depth/namerd/) is a service that manages routing for multiple [linkerd](https://github.com/kubernetes/charts/tree/master/stable/linkerd) instances.
+[namerd](https://linkerd.io/in-depth/namerd/) is a service that manages routing for multiple [linkerd](https://github.com/helm/charts/tree/master/stable/linkerd) instances.
 
 ## Chart Details
 This chart will do the following:

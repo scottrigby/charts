@@ -72,7 +72,7 @@ persistence:
     accessMode: ReadWriteOnce
 
 ## Configuration values for the postgresql dependency.
-## ref: https://github.com/kubernetes/charts/blob/master/stable/postgresql/README.md
+## ref: https://github.com/helm/charts/blob/master/stable/postgresql/README.md
 ##
 postgresql:
   # 9.6 is the newest supported version for the GitLab container
@@ -88,7 +88,7 @@ postgresql:
     size: 10Gi
 
 ## Configuration values for the redis dependency.
-## ref: https://github.com/kubernetes/charts/blob/master/stable/redis/README.md
+## ref: https://github.com/helm/charts/blob/master/stable/redis/README.md
 ##
 redis:
   redisPassword: "gitlab"

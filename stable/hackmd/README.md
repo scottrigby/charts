@@ -6,7 +6,7 @@
 
 This chart bootstraps a [HackMD](https://github.com/hackmdio/docker-hackmd) deployment on a [Kubernetes](http://kubernetes.io) cluster using the [Helm](https://helm.sh) package manager.
 
-It also packages the [PostgreSQL](https://github.com/kubernetes/charts/tree/master/stable/postgresql) which is required for bootstrapping a PostgreSQL deployment for the database requirements of the HackMD application.
+It also packages the [PostgreSQL](https://github.com/helm/charts/tree/master/stable/postgresql) which is required for bootstrapping a PostgreSQL deployment for the database requirements of the HackMD application.
 
 ## Prerequisites
 

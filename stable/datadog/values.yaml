@@ -70,7 +70,7 @@ deployment:
   # traceNodePort: 8126
 
 ## deploy the kube-state-metrics deployment
-## ref: https://github.com/kubernetes/charts/tree/master/stable/kube-state-metrics
+## ref: https://github.com/helm/charts/tree/master/stable/kube-state-metrics
 ##
 kubeStateMetrics:
   enabled: true

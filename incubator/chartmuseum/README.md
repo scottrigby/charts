@@ -185,7 +185,7 @@ helm install --name my-chartmuseum -f custom.yaml incubator/chartmuseum
 
 #### permissions grant with IAM assumed role
 
-To provide access with assumed role you need to install [kube2iam](https://github.com/kubernetes/charts/tree/master/stable/kube2iam)
+To provide access with assumed role you need to install [kube2iam](https://github.com/helm/charts/tree/master/stable/kube2iam)
 and create role with granded permissions.
 
 Specify `custom.yaml` with such values

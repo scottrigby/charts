@@ -18,7 +18,7 @@ Official project documentation found [here](https://github.com/coreos/vault-oper
 
 - Kubernetes 1.9+
 - __Suggested:__ RBAC setup for the Kubernetes cluster
-- [`etcd-operator`](https://github.com/kubernetes/charts/tree/master/stable/etcd-operator)
+- [`etcd-operator`](https://github.com/helm/charts/tree/master/stable/etcd-operator)
 
 ## Installing the Chart
 

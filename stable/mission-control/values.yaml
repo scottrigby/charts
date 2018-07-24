@@ -45,7 +45,7 @@ postInstallHook:
 
 # Sub charts
 ## Configuration values for the mongodb dependency
-## ref: https://github.com/kubernetes/charts/blob/master/stable/mongodb/README.md
+## ref: https://github.com/helm/charts/blob/master/stable/mongodb/README.md
 ##
 mongodb:
   enabled: true
@@ -115,7 +115,7 @@ ingress:
 existingCertsSecret:
 
 ## Create secret for certs from provided values. Follow script given in README.md to generate keys and certs. Example is given in
-## Example values given in https://github.com/kubernetes/charts//blob/master/incubator/mission-control/ci/test-values.yaml
+## Example values given in https://github.com/helm/charts//blob/master/incubator/mission-control/ci/test-values.yaml
 insightKey:
 insightCrt:
 jfmcCrt:

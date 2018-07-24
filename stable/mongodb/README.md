@@ -123,7 +123,7 @@ $ helm install --name my-release stable/mongodb --set replication.enabled=true
 The [values-production.yaml](values-production.yaml) file consists a configuration to deploy a scalable and high-available MongoDB deployment for production environments. We recommend that you base your production configuration on this template and adjust the parameters appropriately.
 
 ```console
-$ curl -O https://raw.githubusercontent.com/kubernetes/charts/master/stable/mongodb/values-production.yaml
+$ curl -O https://raw.githubusercontent.com/helm/charts/master/stable/mongodb/values-production.yaml
 $ helm install --name my-release -f ./values-production.yaml stable/mongodb
 ```
 

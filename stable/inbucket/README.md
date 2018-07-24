@@ -87,4 +87,4 @@ $ helm install --name my-release -f values.yaml stable/inbucket
 
 ## Thanks
 
-This chart was inspired in the Mailhog tool, which is another testing email tool, for more [Mailhog](https://github.com/kubernetes/charts/tree/master/stable/mailhog).
+This chart was inspired in the Mailhog tool, which is another testing email tool, for more [Mailhog](https://github.com/helm/charts/tree/master/stable/mailhog).

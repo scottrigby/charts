@@ -11,7 +11,7 @@ imagePullSecrets:
 
 # Sub charts
 ## Configuration values for the mongodb dependency
-## ref: https://github.com/kubernetes/charts/blob/master/stable/mongodb/README.md
+## ref: https://github.com/helm/charts/blob/master/stable/mongodb/README.md
 ##
 mongodb:
   enabled: true
@@ -42,7 +42,7 @@ mongodb:
     initialDelaySeconds: 30
 
 ## Configuration values for the redis dependency
-## ref: https://github.com/kubernetes/charts/blob/master/stable/redis/README.md
+## ref: https://github.com/helm/charts/blob/master/stable/redis/README.md
 ##
 redis:
   enabled: true

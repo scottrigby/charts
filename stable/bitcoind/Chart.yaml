@@ -10,7 +10,7 @@ keywords:
 home: https://bitcoin.org/
 icon: https://bitcoin.org/img/icons/logotop.svg
 sources:
-  - https://github.com/kubernetes/charts
+  - https://github.com/helm/charts
   - https://github.com/kuberstack/bitcoind
   - https://github.com/kylemanna/docker-bitcoind
 maintainers:

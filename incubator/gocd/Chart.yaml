@@ -15,5 +15,5 @@ keywords:
 - continuous-testing
 sources:
 - https://github.com/gocd/gocd
-# The chart has been moved to stable. Please refer to the deprecation policy - https://github.com/kubernetes/charts/blob/master/PROCESSES.md#deprecating-a-chart
+# The chart has been moved to stable. Please refer to the deprecation policy - https://github.com/helm/charts/blob/master/PROCESSES.md#deprecating-a-chart
 deprecated: true

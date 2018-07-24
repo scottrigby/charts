@@ -11,7 +11,7 @@ imagePullSecrets:
 
 # PostgreSQL
 ## Configuration values for the postgresql dependency
-## ref: https://github.com/kubernetes/charts/blob/master/stable/postgresql/README.md
+## ref: https://github.com/helm/charts/blob/master/stable/postgresql/README.md
 ##
 postgresql:
   enabled: true
@@ -33,7 +33,7 @@ postgresql:
       cpu: "1"
 
 ## Configuration values for the mongodb dependency
-## ref: https://github.com/kubernetes/charts/blob/master/stable/mongodb/README.md
+## ref: https://github.com/helm/charts/blob/master/stable/mongodb/README.md
 ##
 mongodb:
   enabled: true
@@ -66,7 +66,7 @@ mongodb:
 
 # RabbitMQ HA
 ## Configuration values for the rabbitmq-ha dependency
-## ref: https://github.com/kubernetes/charts/blob/master/stable/rabbitmq-ha/README.md
+## ref: https://github.com/helm/charts/blob/master/stable/rabbitmq-ha/README.md
 ##
 rabbitmq-ha:
   replicaCount: 1

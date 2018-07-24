@@ -32,7 +32,7 @@ Learn more about deploying a production ready consensus framework based on Apach
 - Two K8S secrets containing:
     - the genesis block for the Orderer
     - the certificate of the Orderer Organisation Admin
-- A running [Kafka Chart](https://github.com/kubernetes/charts/tree/master/incubator/kafka) if you are using the `kafka` consensus mechanism.
+- A running [Kafka Chart](https://github.com/helm/charts/tree/master/incubator/kafka) if you are using the `kafka` consensus mechanism.
 
 ## Installing the Chart
 

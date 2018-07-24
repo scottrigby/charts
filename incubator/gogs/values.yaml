@@ -256,7 +256,7 @@ persistence:
   size: 1Gi
 
 ## Configuration values for the postgresql dependency.
-## ref: https://github.com/kubernetes/charts/blob/master/stable/postgresql/README.md
+## ref: https://github.com/helm/charts/blob/master/stable/postgresql/README.md
 ##
 postgresql:
 

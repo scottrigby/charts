@@ -317,7 +317,7 @@ topics: []
 
 zookeeper:
   ## If true, install the Zookeeper chart alongside Kafka
-  ## ref: https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+  ## ref: https://github.com/helm/charts/tree/master/incubator/zookeeper
   enabled: true
 
   ## Configure Zookeeper resource requests and limits

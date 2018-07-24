@@ -73,6 +73,6 @@ The following table lists the configurable parameters of the Sonarqube chart and
 | `plugins.install`                           | List of plugins to install                | `[]`                                       |
 | `plugins.resources`                         | Plugin Pod resource requests & limits     | `{}`                                       |
 
-You can also configure values for the PostgreSQL / MySQL database via the Postgresql [README.md](https://github.com/kubernetes/charts/blob/master/stable/postgresql/README.md) / MySQL [README.md](https://github.com/kubernetes/charts/blob/master/stable/mysql/README.md)
+You can also configure values for the PostgreSQL / MySQL database via the Postgresql [README.md](https://github.com/helm/charts/blob/master/stable/postgresql/README.md) / MySQL [README.md](https://github.com/helm/charts/blob/master/stable/mysql/README.md)
 
 For overriding variables see: [Customizing the chart](https://docs.helm.sh/using_helm/#customizing-the-chart-before-installing)

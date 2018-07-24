@@ -9,7 +9,7 @@ keywords:
 - cloudwatch
 - logging
 sources:
-- https://github.com/kubernetes/charts
+- https://github.com/helm/charts
 - https://github.com/fluent/fluentd-kubernetes-daemonset
 maintainers:
 - name: jmcarp

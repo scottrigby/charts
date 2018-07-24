@@ -6,7 +6,7 @@ The Sapho Micro App Platform is the best way to put actionable business informat
 
 This chart bootstraps a [Sapho](https://bitbucket.org/sapho/ops-docker-tomcat/) deployment on a [Kubernetes](http://kubernetes.io) cluster using the [Helm](https://helm.sh) package manager.
 
-It also packages the [MySQL chart](https://github.com/kubernetes/charts/tree/master/stable/mysql) which is required for bootstrapping a MySQL deployment for the database requirements of the Sapho application.
+It also packages the [MySQL chart](https://github.com/helm/charts/tree/master/stable/mysql) which is required for bootstrapping a MySQL deployment for the database requirements of the Sapho application.
 
 ## Prerequisites
 
